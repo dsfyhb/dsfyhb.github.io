@@ -1,11 +1,13 @@
 body {
     font-family: Arial, sans-serif;
 }
+
 nav {
     width: 100%;
     height: 60px;
     background: #344051;
 }
+
 .logo {
     color: #fff;
     font-size: 28px;
@@ -13,10 +15,12 @@ nav {
     padding-left: 388px;
     float: left;
 }
+
 .menu {
     float: left;
     padding-left: 432px;
 }
+
 .menu li {
     float: left;
     line-height: 60px;
@@ -25,17 +29,20 @@ nav {
     font-size: 16px;
     text-transform: uppercase;
 }
+
 .main {
     width: 100%;
     height: calc(100% - 60px);
     background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
 }
+
 .title__container {
     float: left;
     margin: 432px 0px 0px 404px;
     color: #2c384a;
     text-align: center;
 }
+
 .title__container h1 {
     font-size: 60px;
     font-weight: bold;
@@ -46,6 +53,7 @@ nav {
     font-size: 22px;
     color: #79818d;
 }
+
 .title__container input {
     height: 40px;
     text-align: center;
@@ -71,27 +79,34 @@ nav {
     margin: 0 auto;
     text-align: left;
 }
+
 .me h2 {
-    font-size: 22px;
+    font-size: 30px;
     text-align: center;
     margin: 110px auto 0 auto;
 }
+
 .me img {
     display: block;
     margin: 0 auto;
 }
+
 .me .pic1 {
     margin: 35px auto 55px auto;
 }
+
 .me .pic2 {
     margin: 0 auto 25px auto;
 }
+
 .me .text1 {
     margin: 0 auto 45px auto;
 }
+
 .me .text2 {
     margin: 0 auto 40px auto;
 }
+
 .me input {
     width: 160px;
     height: 40px;
@@ -114,50 +129,61 @@ nav {
 .skills {
     background: url(../img/bg2.jpg) center/cover no-repeat;
 }
+
 .mogy h2 {
     text-align: center;
-    font-size: 22px;
+    font-size: 30px;
     margin: 0 auto 30px auto;
 }
+
 .mogy .pic {
     display: block;
     margin: 0 auto;
 }
+
 .mogy .pic1 {
     display: block;
     margin: 110px auto 35px auto;
 }
+
 .mogy .pic2 {
     display: block;
     margin: 106px auto 35px auto;
 }
+
 .mogy .pic3 {
     display: block;
     margin: 98px auto 35px auto;
 }
+
 .mogy .pic4 {
     display: block;
     margin: 100px auto 35px auto;
 }
+
 .mogy {
     width: 920px;
     margin: 0 auto;
     padding-top: 110px;
     padding-bottom: 96px;
 }
+
 .mogy h4 {
     font-weight: 600;
     color: #cf7600;
     margin: auto auto 15px auto;
 }
+
 .mogy p {
     margin: 0 13px;
 }
+
 .skills_item {
     float: left;
     width: 230px;
     text-align: center;
 }
+
 .clear {
     clear: left;
 }
@@ -174,30 +200,390 @@ nav {
     padding-top: 110px;
     padding-bottom: 96px;
 }
-.portfolio h2{
+
+.portfolio h2 {
     text-align: center;
-    font-size: 22px;
+    font-size: 30px;
     margin: 0 auto 30px auto;
 }
+
 .portfolio .pic1 {
     display: block;
     margin: 0 auto 35px auto;
 }
+
 .portfolio .p1 {
     width: 720px;
     margin: 0 auto 40px auto;
     text-align: center;
 }
+
 .portfolio .pic2 {
     display: block;
     margin: 0 auto;
+    margin-bottom: 45px;
 }
-.portfolio_item2 {
+
+
+.left_text {
     width: 210px;
-    height: 170px;
+    float: left;
+    margin-right: 85px;
+    margin-left: 390px;
+}
+
+.left_text h3 {
+    font-size: 25px;
+    margin-bottom: 13px;
+}
+
+.left_text p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+.left_text a {
+    display: block;
+    width: 100%;
+    background: #63b5ae;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.right_text {
+    width: 1000px;
+    height: 100px;
     float: left;
 }
-.portfolio_item3 {
-    width: 860px;
-    height: 100px;
+
+.clear {
+    clear: left;
+}
+
+.right_text h3 {
+    font-size: 25px;
+}
+
+.right_text p {
+    font-size: 19px; 
+    line-height: 27px;
+    margin-top: 3px;
+}
+
+
+
+
+
+
+
+
+
+.calculator {
+    padding-top: 110px;
+    padding-bottom: 96px;
+}
+
+.mySelect {
+    display: block;
+    width: 890px;
+    height: 55px;
+    background: #eeeeee;
+    border: 2px solid: #666666;
+    font-size: 15px;
+    font-weight: bold;
+    color: #737373;
+    margin: 25px auto 50px auto;
+}
+
+.calc_item h2 {
+    margin-bottom: 55px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.calc_item h3 {
+    font-size: 22px;
+    padding-left: 611px;
+}
+
+.calc_item img {
+    display: block;
+    margin: 0 auto;
+}
+
+.days, .price {
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.days {
+    padding-top: 25px;
+}
+
+.days .text {
+    margin-left: 610px;
+    float: left;
+}
+
+.days .num {
+    text-align: right;
+    margin-right: 610px;
+}
+
+.clear {
+    clear: left;
+}
+
+.price .text {
+    margin-left: 610px;
+    float: left;
+}
+
+.price .num {
+    text-align: right;
+    margin-right: 610px;
+}
+
+.clear {
+    clear: left;
+}
+
+
+
+
+
+
+
+
+
+
+.stats {
+    padding-top: 110px;
+    padding-bottom: 96px;
+    background: url(../img/bgKLAVA.jpg) no-repeat;
+}
+
+.stats_container {
+    width: 1120px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.stats h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.stats .pic {
+    display: block;
+    margin: 30px auto 85px auto;
+}
+
+.hours, .proekt, .nagrad {
+    margin-left: 140px;
+}
+
+.client, .hours, .proekt, .nagrad {
+    width: 175px;
+    height: 155px;
+    float: left;
+}
+
+.clear {
+    clear: left;
+}
+
+.client h4, .hours h4, .proekt h4, .nagrad h4 {
+    margin: 35px auto 25px auto;
+    font-size: 25px;
+}
+
+.client h5, .hours h5, .proekt h5, .nagrad h5 {
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+.reviews {
+    padding-top: 110px;
+    padding-bottom: 96px;
+}
+
+.reviews_container h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.reviews_container .pic1 {
+    display: block;
+    margin: 35px auto 60px auto;
+}
+
+.reviews_container .pic2 {
+    display: block;
+    margin: 0 auto;
+}
+
+.reviews_container p {
+    width: 700px;
+    font-size: 15px;
+    margin: 35px auto;
+    text-align: center;
+}
+
+.reviews_container h5 {
+    font-size: 15px;
+    margin: 0 auto 40px auto;
+    text-align: center;
+}
+ 
+.circle1 {
+    display: block;
+    margin-left: 1030px; 
+    margin-right: 12px;
+    float: left;
+}
+
+.circle2 {
+    display: block;
+    margin-right: 12px;
+    float: left;
+}
+
+.circle3 {
+    display: block;
+    margin-right: 12px;
+    float: left;
+}
+
+.clear {
+    clear: left;
+}
+
+
+
+
+
+
+
+
+
+.contacts_container {
+    padding-top: 110px;
+    width: 100%;
+    height: 808px;
+    background: url(../img/bgArmCoffee.jpg) center/cover no-repeat;
+    color: white;
+}
+
+.contacts h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.contacts .pic {
+    display: block;
+    margin: 35px auto;
+}
+
+.contacts p {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 50px;
+} 
+
+.type {
+    width: 609px;
+    height: 73px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.type1 {
+    float: left;
+    margin: 43px 103px 37px 0px;
+}
+
+.type2 {
+    float: left;
+    margin: 45px 103px 60px 0px;
+}
+
+.type3 {
+    float: left;
+    margin: 48px 0px 56px 0px;
+}
+
+.type1 h5 {
+    margin-top: 14px;
+}
+
+.type2 h5 {
+    margin-top: 15px;
+}
+
+.type3 h5 {
+    margin-top: 13px;
+}
+
+.contacts h3 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.contacts .abz1 {
+    float: left;
+    display: block;
+    margin: 45px 15px 10px 693px;
+    width: 356px;
+    height: 35px;
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+.contacts .abz2 {
+    float: left;
+    display: block;
+    margin: 45px 0px 10px 0px;
+    width: 356px;
+    height: 35px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.contacts .abz3 {
+    display: block;
+    margin: 0px auto;
+    width: 730px;
+    height: 70px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.contacts .abz4 {
+    display: block;
+    margin: 30px auto;
+    width: 125px;
+    height: 45px;
+    border: 2px solid #f9faff;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.map img{
+    display: block;
+    width: 100%; 
+    font-size: 14px;
 }
